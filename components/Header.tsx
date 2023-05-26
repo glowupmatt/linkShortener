@@ -37,6 +37,8 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
           ml-auto
           lg:hidden
           sm:z-90
+          lg:w-0
+          lg:h-0
       "
         />
       </header>
