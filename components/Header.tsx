@@ -31,17 +31,11 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
           height={20.67}
           className="mr-auto self-center h-8"
         />
-        <div
-          className="
-          ml-auto
-          lg:hidden
-          sm:z-90
-          lg:w-0
-          lg:h-0
-          lg:invisible
-      "
-        >
-          <MenuIcon onClick={handleClick} />
+        <div className="ml-auto lg:hidden z-90 lg:w-0 lg:h-0 lg:invisible">
+          <MenuIcon
+            className="lg:hidden lg:w-0 lg:h-0 lg:invisible"
+            onClick={handleClick}
+          />
         </div>
       </header>
       <div
