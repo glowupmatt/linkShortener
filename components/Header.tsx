@@ -39,6 +39,7 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
           sm:z-90
           lg:w-0
           lg:h-0
+          lg:invisible
       "
         />
       </header>
