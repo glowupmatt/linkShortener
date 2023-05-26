@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import linkShortener from "@/utils/LinkShortenerApi";
+import linkShortener from "../utils/linkShortenerApi";
 import {
   FormEvent,
   ChangeEvent,
