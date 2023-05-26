@@ -31,8 +31,7 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
           height={20.67}
           className="mr-auto self-center h-8"
         />
-        <MenuIcon
-          onClick={handleClick}
+        <div
           className="
           ml-auto
           lg:hidden
@@ -41,11 +40,13 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
           lg:h-0
           lg:invisible
       "
-        />
+        >
+          <MenuIcon onClick={handleClick} />
+        </div>
       </header>
       <div
         className={clsx(
-          "z-[1000] lg:opacity-100  w-full flex absolute lg:relative justify-center bottom-40 lg:bottom-auto",
+          "z-[1000] lg:opacity-100  w-full flex absolute lg:relative justify-center bottom-[32rem] lg:bottom-auto",
           !showNav && "opacity-0 z-50 w-0 h-0 "
         )}
       >
