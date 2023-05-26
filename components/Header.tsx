@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
         </div>
         <div
           className={clsx(
-            "z-[1000] lg:opacity-100 w-full flex absolute lg:relative justify-center top-[5.5rem] lg:bottom-auto",
+            "z-[1000] lg:opacity-100 w-full flex absolute lg:items-end lg:relative justify-center top-[5.5rem] lg:bottom-auto",
             !showNav && "opacity-0 z-50 w-0 h-0 "
           )}
         >
